@@ -2,16 +2,21 @@
 <html>
     <head>
                     <title>My Portfolio</title>
+                        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
                      <a name="TopOfThePage"> </a>
+
+                         <link rel="stylesheet" href="style.css">
+
                       
 
 
     </head>
 
 
-    <body>
+    <body class="roboto-font">
         <header>
-            <nav>
+            <nav >
                 <a href="" >  <i class="fa-duotone fa-solid fa-house"></i> Home</a>
 
                 <a href="#about"> About</a>
@@ -23,16 +28,32 @@
 
         </header>
         <main>
-            <section id="about">
-               <h1> About Me </h1>
-                 i'm a software developer withthree years of experience , i'm watching for an opportunity in your company  
+            <section id="about"  >
+               <h1 > About Me </h1>
+
+            <img  class="inline-block"  
+          src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Profile_avatar_placeholder_large.png?20150327203541"
+
+          alt="profile picture"
+          height="200px"
+          width="200px"
+          /> 
+          <p  class="inline-block"     >     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas alias
+          commodi molestias dolores, est voluptatum. Placeat, laborum? Rerum
+          aliquid corporis quas ducimus, odit autem in veniam. Est animi aperiam
+          doloremque
+          
+          </p>                    
+          
                  <h4>skills</h4>
-                   <ul >
-	                 <li>HTML <img src="HTML5_logo .png"  width="30" height="30"  >  </li>
+                <ul >
+	                <li>HTML <img src="HTML5_logo .png"  width="30" height="30"  >  </li>
 	                <li>CSS <img src=" CSS-Logo.png"  width="40" height="30"  > </li>
 	                <li>JS <img src="JavaScript-logo.png"  width="30" height="30"  > </li>
-                   </ul>
-                  <br>
+                </ul>
+                <br>
+              
+
 
                   <table border="1">
                     <tr>
@@ -71,11 +92,15 @@
             <section id="contact">
                <h1> Contact Me  <h1> 
                 <form>
-                    <label for="name">Name:</label><br/>
-                    <input type="text"   name="name"   /><br/><br/>
+                    <label  class="label">Name:</label><br/>
+                    <input type="text"    placeholder="type your name here "   /><br/><br/>
 
-                    <label for="email">Email:</label><br/>
-                    <input type="email"   name="email"   /><br/><br/>
+                     <label class="label" >Phone number</label><br/>
+                    <input type="number"      placeholder="type your phone number  here " /><br/><br/>
+
+                    <label   class="label">Email:</label><br/>
+                    <input type="email"      placeholder="type your email here " /><br/><br/>
+                    <button>submit</button>
                 </form>
  
             </section>
